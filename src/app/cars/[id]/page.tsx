@@ -53,7 +53,7 @@ export default function CarDetails() {
     return (
       <div className="text-center py-12">
         <h3 className="text-xl font-semibold">Car not found</h3>
-        <p className="text-gray-500">The car you're looking for doesn't exist</p>
+        <p className="text-gray-500">The car you&apos;re looking for doesn&apos;t exist</p>
         <Link href="/">
           <Button className="mt-4">Back to Home</Button>
         </Link>
