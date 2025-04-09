@@ -42,7 +42,7 @@ A modern web application built with Next.js, shadcn/ui, and TailwindCSS that all
    npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open https://brand-kiln-assignment-omega.vercel.app/ in your browser.
 
 ## Project Structure
 
