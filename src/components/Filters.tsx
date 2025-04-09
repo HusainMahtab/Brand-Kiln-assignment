@@ -1,5 +1,4 @@
 import { FilterOptions } from '@/types/car';
-import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Slider } from '@/components/ui/slider';
 import { Button } from '@/components/ui/button';
@@ -23,7 +22,7 @@ export function Filters({
 }: FiltersProps) {
   const [filters, setFilters] = useState<FilterOptions>({});
 
-  const handleFilterChange = (key: keyof FilterOptions, value: any) => {
+  const handleFilterChange = (key: keyof FilterOptions, value: string | number | undefined) => {
     const newFilters = { ...filters, [key]: value };
     setFilters(newFilters);
     onFilterChange(newFilters);

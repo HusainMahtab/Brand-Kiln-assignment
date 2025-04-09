@@ -1,5 +1,3 @@
-import { Car } from '@/types/car';
-
 const WISHLIST_KEY = 'car-wishlist';
 
 export function getWishlist(): string[] {
